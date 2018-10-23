@@ -1,0 +1,10 @@
+I= imread ('C:\Users\User\Pictures\grigori-rasputin-beard-robe.jpg');
+imshow(I);
+J= imcomplement(I);
+imshow(J);
+K=imadjust(I,[],[],0.5);
+imshow(K);
+L=imsharpen(I);
+imshow(L);
+M= imreducehaze(I);
+imshow (M);
